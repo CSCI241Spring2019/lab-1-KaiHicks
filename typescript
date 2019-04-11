@@ -1,0 +1,1372 @@
+Script started on Thu 11 Apr 2019 11:59:26 AM PDT
+hicksk5@CF165-05:~/Documents/Python/CS241$ git clone ^M[Khttps://github.com/CSCI241Spring2019/lab-1-KaiHicks.git
+Cloning into 'lab-1-KaiHicks'...
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+Checking connectivity... done.
+hicksk5@CF165-05:~/Documents/Python/CS241$ git config --global usernam[K[K[K.name KaiHc[Kicks
+hicksk5@CF165-05:~/Documents/Python/CS241$ git config --globa [K;[Kl usern[K.email hics[K[K[K[Khicksk5@wwu/ed[K[K[K.edu
+hicksk5@CF165-05:~/Documents/Python/CS241$ touch [K[K[K[K[K[Ktouch wr[K[K[K[K[K[K[K[Kcd lab-1-KaiHicks/
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ touch writeb[Kp[Kup.txt
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add writeup.txt 
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git commit -m "Added wrtie[K[K[Kitep[Kup file[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KCreated writeyup[K[K[Kup file"
+[master 6e9fe3e] Created writeup file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git/'
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git pushcommit -m "Created writeup file"push[K
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks9@gmail.com
+Password for 'https://kaihicks9@gmail.com@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git/'
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git/'
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': Kai  Hicks
+Password for 'https://KaiHicks@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git/'
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': KaiHik cks
+Password for 'https://KaiHicks@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git/'
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git pyush[K[K[K[Ks[Kush
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks9@gmail.com
+Password for 'https://kaihicks9@gmail.com@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git/'
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks9
+Password for 'https://kaihicks9@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git/'
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git/'
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 315 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git
+   1523c09..6e9fe3e  master -> master
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add writeup.txt 
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git pu[K[Kcommit -m "Added o[Kpart 1 to writeup"
+[master 319d8a4] Added part 1 to writeup
+ 1 file changed, 1 insertion(+)
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 268 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git
+   6e9fe3e..319d8a4  master -> master
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add a[Kwriteup.txt 
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git commit 0-[K[K-m "Added[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch username-txt[K[K[K[K.txxx[K[Kt
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add username.txt 
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push -m "Added the secon [Kd part of the writeup and ad[K[K[Ka[K addd [K[Ked usern[K[K[K[K[K[K[K[K[K[K[Kadded d[K[K s[Kusername.txt
+> "
+error: unknown switch `m'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    --delete              delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push -m "Added the second part of the writeup and added username.txt
+"[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+error: unknown switch `m'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    --delete              delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push -m "Added the second part of the writeup and added username.txt"[1P[1P[1P[1P[1P[1P[1@ [1@c[1@o[1@m[1@m[1@i[1@t[1@ 
+[master f6120f1] Added the second part of the writeup and added username.txt
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 username.txt
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git puhs[K[Ksh
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 435 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git
+   319d8a4..f6120f1  master -> master
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git checkout r[Korigin/master
+Note: checking out 'origin/master'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at f6120f1... Added the second part of the writeup and added username.txt
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git status
+[31mHEAD detached at [morigin/master
+nothing to commit, working directory clean
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git [K[K[K[Ktouch testing_rm.txt[K[K[K[K
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ fi[K[Kgit rm testing_rm 
+fatal: pathspec 'testing_rm' did not match any files
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git rm testing_rm [C[K[K[K[K[K[K[K[K[K[K[K--e[Khelp
+[?1049h[?1h=GIT-RM(1)                                                                                  Git Manual                                                                                 GIT-RM(1)[m
+[m
+[1mNAME[0m[m
+       git-rm - Remove files from the working tree and from the index[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mrm[24m [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch] [--quiet] [--] <file>...[m
+[m
+[1mDESCRIPTION[0m[m
+       Remove files from the index, or from the working tree and the index. git rm will not remove a file from just your working directory. (There is no option to remove a file only from the[m
+       working tree and yet keep it in the index; use /bin/rm if you want to do that.) The files being removed have to be identical to the tip of the branch, and no updates to their contents[m
+       can be staged in the index, though that default behavior can be overridden with the -f option. When --cached is given, the staged content has to match either the tip of the branch or[m
+       the file on disk, allowing the file to be removed from just the index.[m
+[m
+[1mOPTIONS[0m[m
+       <file>...[m
+           Files to remove. Fileglobs (e.g.  *.c) can be given to remove all matching files. If you want Git to expand file glob characters, you may need to shell-escape them. A leading[m
+           directory name (e.g.  dir to remove dir/file1 and dir/file2) can be given to remove all files in the directory, and recursively all sub-directories, but this requires the -r option[m
+[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-rm(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to be explicitly given.[m
+[7m Manual page git-rm(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-rm(1) line 3 (press h for help or q to quit)[27m[K[K       -f, --force[m
+           Override the up-to-date check.[m
+[m
+       -n, --dry-run[m
+           Don’t actually remove any file(s). Instead, just show if they exist in the index and would otherwise be removed by the command.[m
+[m
+       -r[m
+           Allow recursive removal when a leading directory name is given.[m
+[m
+       --[m
+           This option can be used to separate command-line options from the list of files, (useful when filenames might be mistaken for command-line options).[m
+[m
+       --cached[m
+           Use this option to unstage and remove paths only from the index. Working tree files, whether modified or not, will be left alone.[m
+[m
+       --ignore-unmatch[m
+           Exit with a zero status even if no files matched.[m
+[m
+[7m Manual page git-rm(1) line 21 (press h for help or q to quit)[27m[K[K[?1l>[?1049lhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git-rm testing_rm 
+git-rm: command not found
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git rm testing_rm 
+fatal: pathspec 'testing_rm' did not match any files
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add testing_rm 
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git rm testing_rm 
+error: the following file has changes staged in the index:
+    testing_rm
+(use --cached to keep the file, or -f to force removal)
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git commit -m "testin [Kg firt[K[K[K[Kgit rm"
+[detached HEAD fe0f53f] testing git rm
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testing_rm
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ kaihicks
+kaihicks: command not found
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ kaihicks[K[K[K[K[K[K[K[Kgit push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ g[Kgit checkout master
+Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  fe0f53f testing git rm
+
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> fe0f53f
+
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihic cks
+Password for 'https://kaihicks@github.com': 
+Everything up-to-date
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ g[Ktoush [K[K[Kch testing_mv
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git mv testing_mv 
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git mv testing_mv  [Krenames[Kd
+fatal: not under version control, source=testing_mv, destination=renamed
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git mv testing_mv renamed[C[C[C[C[C[C[C[1@-[1@f[1@ 
+fatal: not under version control, source=testing_mv, destination=renamed
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add -a[K[Ktesting_mv 
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add testing_mv mv -f testing_mv renamed
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git mv -f testing_mv renamed[9Padd testing_mv [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+Everything up-to-date
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git checkout[K[K[K[K[K[K[K[K[K[K[K[Kgit blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git blame renamed 
+fatal: no such path 'renamed' in HEAD
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git blame renamed [K[K[K[K[K[K[K[Korigin/master/writeup.txt
+fatal: cannot stat path 'origin/master/writeup.txt': No such file or directory
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gitb[K blame writeup.txt 
+[?1h=f6120f1b (KaiHicks 2019-04-11 12:14:05 -0700 1) 1) Kai Hicks[m
+f6120f1b (KaiHicks 2019-04-11 12:14:05 -0700 2) 2) Hobby: Archery[m
+[K[?1l>hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git log
+[?1h=[33mcommit f6120f1b811723e24930d83ba66203f9c0b78513[m[m
+Author: KaiHicks <hicksk5@wwu.edu>[m
+Date:   Thu Apr 11 12:14:05 2019 -0700[m
+[m
+    Added the second part of the writeup and added username.txt[m
+[m
+[33mcommit 319d8a4e2779aa0c41524c21710b16b80c9f7922[m[m
+Author: KaiHicks <hicksk5@wwu.edu>[m
+Date:   Thu Apr 11 12:11:35 2019 -0700[m
+[m
+    Added part 1 to writeup[m
+[m
+[33mcommit 6e9fe3ee8cc91684777050f3af451bc3258c6854[m[m
+Author: KaiHicks <hicksk5@wwu.edu>[m
+Date:   Thu Apr 11 12:05:14 2019 -0700[m
+[m
+    Created writeup file[m
+[m
+:[K[K[K:[K[K:[K[K:[K[K:[K[K:[K[K[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+:[K[KAuthor: majeskn <majeskn@wwu.edu>[m
+:[K[KDate:   Mon Jan 7 20:49:19 2019 -0800[m
+:[K[K[m
+:[K[K    Adding setup for gradle[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K [KESCESC[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[HM    Added the second part of the writeup and added username.txt[m
+[HM[m
+[HMDate:   Thu Apr 11 12:14:05 2019 -0700[m
+[HMAuthor: KaiHicks <hicksk5@wwu.edu>[m
+[HM[33mcommit f6120f1b811723e24930d83ba66203f9c0b78513[m[m
+[19;1H[K:[K[K[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+:[K[KAuthor: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K[HM    Added the second part of the writeup and added username.txt[m
+[HM[m
+[HMDate:   Thu Apr 11 12:14:05 2019 -0700[m
+[HMAuthor: KaiHicks <hicksk5@wwu.edu>[m
+[HM[33mcommit f6120f1b811723e24930d83ba66203f9c0b78513[m[m
+[19;1H[K:[K[K[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+:[K[KAuthor: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K-[Klog file: [Kee[Kee[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[?1l>
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git dif[K[K[K[K[K[K[Ktoc[Kuch test_diff
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git diff test_diff 
+[?1h=[K[?1l>hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git diff test_diff 
+[?1h=[K[?1l>hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add test_diff 
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add test_diff [1@diff[C[C[C[C[C[C[C[C[C[C[C
+[?1h=[K[?1l>hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git diff -?
+[?1h=error: invalid option: -?[m
+[K[?1l>hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git diff -?[K-help
+[?1049h[?1h=GIT-DIFF(1)                                                                                Git Manual                                                                               GIT-DIFF(1)[m
+[m
+[1mNAME[0m[m
+       git-diff - Show changes between commits, commit and working tree, etc[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mdiff[24m [options] [<commit>] [--] [<path>...][m
+       [4mgit[24m [4mdiff[24m [options] --cached [<commit>] [--] [<path>...][m
+       [4mgit[24m [4mdiff[24m [options] <commit> <commit> [--] [<path>...][m
+       [4mgit[24m [4mdiff[24m [options] <blob> <blob>[m
+       [4mgit[24m [4mdiff[24m [options] [--no-index] [--] <path> <path>[m
+[m
+[1mDESCRIPTION[0m[m
+       Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes between two blob objects, or changes between two[m
+       files on disk.[m
+[m
+       [4mgit[24m [4mdiff[24m [--options] [--] [<path>...][m
+           This form is to view the changes you made relative to the index (staging area for the next commit). In other words, the differences are what you [4mcould[24m tell Git to further add to[m
+[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049lhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ g[Kgit diff --help
+[?1049h[?1h=GIT-DIFF(1)                                                                                Git Manual                                                                               GIT-DIFF(1)[m
+[m
+[1mNAME[0m[m
+       git-diff - Show changes between commits, commit and working tree, etc[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mdiff[24m [options] [<commit>] [--] [<path>...][m
+       [4mgit[24m [4mdiff[24m [options] --cached [<commit>] [--] [<path>...][m
+       [4mgit[24m [4mdiff[24m [options] <commit> <commit> [--] [<path>...][m
+       [4mgit[24m [4mdiff[24m [options] <blob> <blob>[m
+       [4mgit[24m [4mdiff[24m [options] [--no-index] [--] <path> <path>[m
+[m
+[1mDESCRIPTION[0m[m
+       Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes between two blob objects, or changes between two[m
+       files on disk.[m
+[m
+       [4mgit[24m [4mdiff[24m [--options] [--] [<path>...][m
+           This form is to view the changes you made relative to the index (staging area for the next commit). In other words, the differences are what you [4mcould[24m tell Git to further add to[m
+[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the index but you still haven’t. You can stage these changes by using [1mgit-add[0m(1).[m
+[7m Manual page git-diff(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-diff(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mgit[24m [4mdiff[24m --no-index [--options] [--] [<path>...][m
+[7m Manual page git-diff(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This form is to compare the given two paths on the filesystem. You can omit the --no-index option when running the command in a working tree controlled by Git and at least one of[m
+[7m Manual page git-diff(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the paths points outside the working tree, or when running the command outside a working tree controlled by Git.[m
+[7m Manual page git-diff(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-diff(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mgit[24m [4mdiff[24m [--options] --cached [<commit>] [--] [<path>...][m
+[7m Manual page git-diff(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This form is to view the changes you staged for the next commit relative to the named <commit>. Typically you would want comparison with the latest commit, so if you do not give[m
+[7m Manual page git-diff(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           <commit>, it defaults to HEAD. If HEAD does not exist (e.g. unborn branches) and <commit> is not given, it shows all staged changes. --staged is a synonym of --cached.[m
+[7m Manual page git-diff(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-diff(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mgit[24m [4mdiff[24m [--options] <commit> [--] [<path>...][m
+[7m Manual page git-diff(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This form is to view the changes you have in your working tree relative to the named <commit>. You can use HEAD to compare it with the latest commit, or a branch name to compare[m
+[7m Manual page git-diff(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           with the tip of a different branch.[m
+[7m Manual page git-diff(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-diff(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mgit[24m [4mdiff[24m [--options] <commit> <commit> [--] [<path>...][m
+[7m Manual page git-diff(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This is to view the changes between two arbitrary <commit>.[m
+[7m Manual page git-diff(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-diff(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mgit[24m [4mdiff[24m [--options] <commit>..<commit> [--] [<path>...][m
+[7m Manual page git-diff(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This is synonymous to the previous form. If <commit> on one side is omitted, it will have the same effect as using HEAD instead.[m
+[7m Manual page git-diff(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-diff(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mgit[24m [4mdiff[24m [--options] <commit>...<commit> [--] [<path>...][m
+[7m Manual page git-diff(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This form is to view the changes on the branch containing and up to the second <commit>, starting at a common ancestor of both <commit>. "git diff A...B" is equivalent to "git diff[m
+[7m Manual page git-diff(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           $(git-merge-base A B) B". You can omit any one of <commit>, which has the same effect as using HEAD instead.[m
+[7m Manual page git-diff(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           the paths points outside the working tree, or when running the command outside a working tree controlled by Git.[m
+[19;1H[K[7m Manual page git-diff(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           This form is to compare the given two paths on the filesystem. You can omit the --no-index option when running the command in a working tree controlled by Git and at least one of[m
+[19;1H[K[7m Manual page git-diff(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mgit[24m [4mdiff[24m --no-index [--options] [--] [<path>...][m
+[19;1H[K[7m Manual page git-diff(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page git-diff(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           the index but you still haven’t. You can stage these changes by using [1mgit-add[0m(1).[m
+[19;1H[K[7m Manual page git-diff(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           This form is to view the changes you made relative to the index (staging area for the next commit). In other words, the differences are what you [4mcould[24m tell Git to further add to[m
+[19;1H[K[7m Manual page git-diff(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mgit[24m [4mdiff[24m [--options] [--] [<path>...][m
+[19;1H[K[7m Manual page git-diff(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page git-diff(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       files on disk.[m
+[19;1H[K[7m Manual page git-diff(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes between two blob objects, or changes between two[m
+[19;1H[K[7m Manual page git-diff(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[19;1H[K[7m Manual page git-diff(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page git-diff(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mgit[24m [4mdiff[24m [options] [--no-index] [--] <path> <path>[m
+[19;1H[K[7m Manual page git-diff(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mgit[24m [4mdiff[24m [options] <blob> <blob>[m
+[19;1H[K[7m Manual page git-diff(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mgit[24m [4mdiff[24m [options] <commit> <commit> [--] [<path>...][m
+[19;1H[K[7m Manual page git-diff(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mgit[24m [4mdiff[24m [options] --cached [<commit>] [--] [<path>...][m
+[19;1H[K[7m Manual page git-diff(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mgit[24m [4mdiff[24m [options] [<commit>] [--] [<path>...][m
+[19;1H[K[7m Manual page git-diff(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[19;1H[K[7m Manual page git-diff(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page git-diff(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       git-diff - Show changes between commits, commit and working tree, etc[m
+[19;1H[K[7m Manual page git-diff(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[19;1H[K[7m Manual page git-diff(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page git-diff(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMGIT-DIFF(1)                                                                                Git Manual                                                                               GIT-DIFF(1)[m
+[19;1H[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-diff(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049lhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git diff u[K[K writeup.txt 
+[?1h=[K[?1l>hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git branch -b question2[K3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgt[Kit checkout -b q[KQuest[K[K[K[K[Kquestion3
+A	renamed
+A	test_diff
+Switched to a new branch 'question3'
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add m[Kwriteup.txt 
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git commit -m "Added favro[K[Korite d[Ksng t[K[K[K[Kong to the[K[K[Kthe s[Kwriteup"
+[question3 c44ca84] Added favorite song to the writeup
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 renamed
+ create mode 100644 test_diff
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch question3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3
+
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ a[Kkaihicks
+kaihicks: command not found
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch question3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3
+
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push --ser[Kt-upstream origin question23[K[K3
+Username for 'https://github.com': 38cdc5d88c9ff6cffc1215089de20378266cea1b^Z
+[1]+  Stopped                 git push --set-upstream origin question3
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push --set-upstream origin question3
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 517 bytes | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'question3' on GitHub by visiting:[K
+remote:      https://github.com/CSCI241Spring2019/lab-1-KaiHicks/pull/new/question3[K
+remote: 
+To https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git
+ * [new branch]      question3 -> question3
+Branch question3 set up to track remote branch question3 from origin.
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradly[Ke buil;d[K[K;[Kd
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/build.gradle into local compilation cache[m[120D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/build.gradle into local compilation cache[m[120D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/build.gradle into local compilation cache > Compiling build file '/home/hicksk5/Documents/Python/CS241/lab-1-KaiHick[m[195D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [1s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 4s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args = "test"
+[0m
+[1A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B
+[2A[1m<[0;32;1m====[0;39;1m---------> 37% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args = "test"[C[C[C[1P"test"[1P="test"
+[0m
+[1A
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args="test"[1P"[1P"[1P"[1P"2"4"1"
+[0m
+[1A
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args="241"gradle buill[Kd
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:5: error: ';' expected
+        String s = "World"
+                          ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:8: error: ';' expected
+            s = args[0]
+                       ^
+2 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args="241"gradle build[Kgradle run --args="241"gradle build[Ktest" = "test"[Kbuild
+[0m
+[1A
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:5: error: ';' expected
+        String s = "World"
+                          ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:8: error: ';' expected
+            s = args[0]
+                       ^
+2 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgrhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gr[K[Kgradle build
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args [K="test"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello test!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args="test" "2"
+[0m
+[1A
+[1m> Task :run[m
+Hello test!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args="test 2"[2P"build[K
+[0m
+[1A
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: not a statement
+            for(int = 1; i < args.length; i++) {
+                ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ';' expected
+            for(int = 1; i < args.length; i++) {
+                   ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: illegal start of expression
+            for(int = 1; i < args.length; i++) {
+                    ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ';' expected
+            for(int = 1; i < args.length; i++) {
+                     ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: illegal start of expression
+            for(int = 1; i < args.length; i++) {
+                       ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ')' expected
+            for(int = 1; i < args.length; i++) {
+                        ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: > expected
+            for(int = 1; i < args.length; i++) {
+                                        ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ';' expected
+            for(int = 1; i < args.length; i++) {
+                                         ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: illegal start of expression
+            for(int = 1; i < args.length; i++) {
+                                             ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:10: error: ';' expected
+                s += " " + args[i]
+                                  ^
+10 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m^[[Ahicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle build[Kgradle build
+[0m
+[1A
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: not a statement
+            for(int = 1; i < args.length; i++) {
+                ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ';' expected
+            for(int = 1; i < args.length; i++) {
+                   ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: illegal start of expression
+            for(int = 1; i < args.length; i++) {
+                    ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ';' expected
+            for(int = 1; i < args.length; i++) {
+                     ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: illegal start of expression
+            for(int = 1; i < args.length; i++) {
+                       ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ')' expected
+            for(int = 1; i < args.length; i++) {
+                        ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: > expected
+            for(int = 1; i < args.length; i++) {
+                                        ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ';' expected
+            for(int = 1; i < args.length; i++) {
+                                         ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: illegal start of expression
+            for(int = 1; i < args.length; i++) {
+                                             ^
+9 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle build --stacktrade[K[Kce
+[0m
+[1A
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: not a statement
+            for(int = 1; i < args.length; i++) {
+                ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ';' expected
+            for(int = 1; i < args.length; i++) {
+                   ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: illegal start of expression
+            for(int = 1; i < args.length; i++) {
+                    ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ';' expected
+            for(int = 1; i < args.length; i++) {
+                     ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: illegal start of expression
+            for(int = 1; i < args.length; i++) {
+                       ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ')' expected
+            for(int = 1; i < args.length; i++) {
+                        ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: > expected
+            for(int = 1; i < args.length; i++) {
+                                        ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: ';' expected
+            for(int = 1; i < args.length; i++) {
+                                         ^
+/home/hicksk5/Documents/Python/CS241/lab-1-KaiHicks/src/main/java/lab1/Hello.java:9: error: illegal start of expression
+            for(int = 1; i < args.length; i++) {
+                                             ^
+9 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':compileJava'.
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:96)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:65)
+        at org.gradle.api.internal.tasks.execution.ActionEventFiringTaskExecuter.execute(ActionEventFiringTaskExecuter.java:44)
+        at org.gradle.api.internal.tasks.execution.TimeoutTaskExecuter.execute(TimeoutTaskExecuter.java:53)
+        at org.gradle.api.internal.tasks.execution.SnapshotAfterExecutionTaskExecuter.execute(SnapshotAfterExecutionTaskExecuter.java:38)
+        at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+        at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+        at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:49)
+        at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:61)
+        at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+        at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+        at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:44)
+        at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+        at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:55)
+        at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+        at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:35)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:49)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+        at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:44)
+        at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:337)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:325)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:318)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:304)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+        at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+        at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+        at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+        at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
+        at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:36)
+        at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:100)
+        at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
+        at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+        at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:51)
+        at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:37)
+        at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:39)
+        at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:110)
+        at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:106)
+        at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:59)
+        at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:43)
+        at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:152)
+        at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:120)
+        at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+        at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:46)
+        at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+        at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:117)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+        at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:106)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:85)
+        ... 35 more
+
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle build --stacktrace
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle build --stacktrace[Krun --args="test 2"
+[0m
+[1A
+[1m> Task :run[m
+Hello test 2!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args="test 2"[1P"[1P"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello test!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ gradle run --args="test"[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[0m
+[1A
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mhicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add -[K0a[K[K-A
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git commit -m "Added ar[K[Ka[Karguments to ht[K[Kthe hello world to change who a[Kyou are greeting'[K"
+[question3 c4de144] Added arguments to the hello world to change who you are greeting
+ 22 files changed, 270 insertions(+), 1 deletion(-)
+ create mode 100644 .gradle/5.0/fileChanges/last-build.bin
+ create mode 100644 .gradle/5.0/fileContent/fileContent.lock
+ create mode 100644 .gradle/5.0/fileHashes/fileHashes.bin
+ create mode 100644 .gradle/5.0/fileHashes/fileHashes.lock
+ create mode 100644 .gradle/5.0/gc.properties
+ create mode 100644 .gradle/5.0/javaCompile/classAnalysis.bin
+ create mode 100644 .gradle/5.0/javaCompile/javaCompile.lock
+ create mode 100644 .gradle/5.0/javaCompile/taskHistory.bin
+ create mode 100644 .gradle/5.0/taskHistory/taskHistory.bin
+ create mode 100644 .gradle/5.0/taskHistory/taskHistory.lock
+ create mode 100644 .gradle/buildOutputCleanup/buildOutputCleanup.lock
+ create mode 100644 .gradle/buildOutputCleanup/cache.properties
+ create mode 100644 .gradle/buildOutputCleanup/outputFiles.bin
+ create mode 100644 .gradle/vcs-1/gc.properties
+ create mode 100644 build/classes/java/main/lab1/Hello.class
+ create mode 100644 build/distributions/lab-1-KaiHicks.tar
+ create mode 100644 build/distributions/lab-1-KaiHicks.zip
+ create mode 100644 build/libs/lab-1-KaiHicks.jar
+ create mode 100755 build/scripts/lab-1-KaiHicks
+ create mode 100644 build/scripts/lab-1-KaiHicks.bat
+ create mode 100644 build/tmp/jar/MANIFEST.MF
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+Counting objects: 67, done.
+Delta compression using up to 8 threads.
+Compressing objects:   2% (1/36)   Compressing objects:   5% (2/36)   Compressing objects:   8% (3/36)   Compressing objects:  11% (4/36)   Compressing objects:  13% (5/36)   Compressing objects:  16% (6/36)   Compressing objects:  19% (7/36)   Compressing objects:  22% (8/36)   Compressing objects:  25% (9/36)   Compressing objects:  27% (10/36)   Compressing objects:  30% (11/36)   Compressing objects:  33% (12/36)   Compressing objects:  36% (13/36)   Compressing objects:  38% (14/36)   Compressing objects:  41% (15/36)   Compressing objects:  44% (16/36)   Compressing objects:  47% (17/36)   Compressing objects:  50% (18/36)   Compressing objects:  52% (19/36)   Compressing objects:  55% (20/36)   Compressing objects:  58% (21/36)   Compressing objects:  61% (22/36)   Compressing objects:  63% (23/36)   Compressing objects:  66% (24/36)   Compressing objects:  69% (25/36)   Compressing objects:  72% (26/36)   Compressing objects:  75% (27/36)   Compressing objects:  77% (28/36)   Compressing objects:  80% (29/36)   Compressing objects:  83% (30/36)   Compressing objects:  86% (31/36)   Compressing objects:  88% (32/36)   Compressing objects:  91% (33/36)   Compressing objects:  94% (34/36)   Compressing objects:  97% (35/36)   Compressing objects: 100% (36/36)   Compressing objects: 100% (36/36), done.
+Writing objects:   1% (1/67)   Writing objects:   2% (2/67)   Writing objects:   4% (3/67)   Writing objects:   5% (4/67)   Writing objects:   7% (5/67)   Writing objects:   8% (6/67)   Writing objects:  10% (7/67)   Writing objects:  11% (8/67)   Writing objects:  13% (9/67)   Writing objects:  14% (10/67)   Writing objects:  16% (11/67)   Writing objects:  17% (12/67)   Writing objects:  19% (13/67)   Writing objects:  20% (14/67)   Writing objects:  26% (18/67)   Writing objects:  28% (19/67)   Writing objects:  29% (20/67)   Writing objects:  31% (21/67)   Writing objects:  34% (23/67)   Writing objects:  35% (24/67)   Writing objects:  37% (25/67)   Writing objects:  38% (26/67)   Writing objects:  40% (27/67)   Writing objects:  41% (28/67)   Writing objects:  43% (29/67)   Writing objects:  44% (30/67)   Writing objects:  46% (31/67)   Writing objects:  47% (32/67)   Writing objects:  49% (33/67)   Writing objects:  50% (34/67)   Writing objects:  52% (35/67)   Writing objects:  53% (36/67)   Writing objects:  55% (37/67)   Writing objects:  56% (38/67)   Writing objects:  58% (39/67)   Writing objects:  59% (40/67)   Writing objects:  61% (41/67)   Writing objects:  62% (42/67)   Writing objects:  64% (43/67)   Writing objects:  65% (44/67)   Writing objects:  67% (45/67)   Writing objects:  68% (46/67)   Writing objects:  70% (47/67)   Writing objects:  71% (48/67)   Writing objects:  73% (49/67)   Writing objects:  74% (50/67)   Writing objects:  76% (51/67)   Writing objects:  77% (52/67)   Writing objects:  79% (53/67)   Writing objects:  80% (54/67)   Writing objects:  82% (55/67)   Writing objects:  83% (56/67)   Writing objects:  85% (57/67)   Writing objects:  86% (58/67)   Writing objects:  88% (59/67)   Writing objects:  89% (60/67)   Writing objects:  91% (61/67)   Writing objects:  92% (62/67)   Writing objects:  94% (63/67)   Writing objects:  95% (64/67)   Writing objects:  97% (65/67)   Writing objects:  98% (66/67)   Writing objects: 100% (67/67)   Writing objects: 100% (67/67), 18.44 KiB | 0 bytes/s, done.
+Total 67 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/11)   [Kremote: Resolving deltas:  18% (2/11)   [Kremote: Resolving deltas:  72% (8/11)   [Kremote: Resolving deltas:  81% (9/11)   [Kremote: Resolving deltas: 100% (11/11)   [Kremote: Resolving deltas: 100% (11/11), done.[K
+remote: 
+remote: Create a pull request for 'question3' on GitHub by visiting:[K
+remote:      https://github.com/CSCI241Spring2019/lab-1-KaiHicks/pull/new/question3[K
+remote: 
+To https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git
+ * [new branch]      question3 -> question3
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ exit
+exit
+There are stopped jobs.
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git add typescript -[K
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git commit -m "Added typescript"
+[question3 3ded794] Added typescript
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 typescript
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git com[K[K[Kpush
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': kaihicks
+Password for 'https://kaihicks@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 260 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git
+   c4de144..3ded794  question3 -> question3
+hicksk5@CF165-05:~/Documents/Python/CS241/lab-1-KaiHicks$ git pushcommit -m "Added typescript"[13Padd typescript exit[Kgit pushcommit -m "Added arguments to the hello world to change who you are greeting"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kradle run --args="test" 2"[1Pbuild --stacktrace[Krun --args="test 2"[2P"build[Krun --args="241"gradle build[Ktest" = "test"[Kbuildit push --set-upstream origin question3[Kkaihicksgit pushcommit -m "Added favorite song to the writeup"[30Padd writeup.txt checkout -b question3[4Pdiff writeup.txt [6P--help?[Ktest_diff [1Padd[C[C[C[C[C[C[C[C[C[C[C[1@diff[C[C[C[C[C[C[C[C[C[C[C[4Ptouch test_diff[8Pgit logblame writeup.txt origin/master/writeup.txtrenamed [K[K[1Ppushmv -f testing_mv renamed[9Padd testing_mv mv -f testing_mv renamed[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[2Ptouch testing_mv[8Pgit pushcheckout masterpush[Kkaihicksgit pushcommit -m "testing git rm"[12Prm testing_rm [1@add[C[C[C[C[C[C[C[C[C[C[C[C[1Prm[C[C[C[C[C[C[C[C[C[C[C[C-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P rm --helptesting_rm [2Ptouch testing_rm[6Pgit statuscheckout origin/masterpush[Kcommit -m "Added the second part of the writeup and added username.txt"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Ppush[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 
+"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd username.txt [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ptouch username.txtgit add writeup.txt push[Kcommit -m "Added part 1 to writeup"[19Padd writeup.txt push[Kcommit -m "Created writeup file"[16Padd writeup.txt [3Ptouch writeup.txtcd lab-1-KaiHicks/git config --global user.email hicksk5@wwu.edu[8Pname KaiHickslone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ktaskslist[4Pkillexit() exit()pip install github3.pyclear[Kgit reset --hard origin/master[14Pfetch origincheckout masterreset --hard HEADcheckout origin/master --HARD[K[7Pmasterpull[Kpython -m pip install pip --upgrade --force-reinstall[34Pip install github3ython -m pip install pip==9.0.3 --upgrade --force-reinstall[38Pip install -u github3/usr/bin/python3 /home/hicksk5/Documents/Python/Github-Travis-Data-Collection/datacollection.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgit clone https://github.com/auto-testing-feedback/Github-Travis-Data-Collection.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24P/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pgit push origin HEAD:authenticationcommit -m "fixed error where only one character of the required scope is displayed when an API key with insufficient scopes is submitteed"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pgit checkout origin/authentication[4Ppush origin authentication[1PCSEMT/authenticationauto-testing-feedback/CSEMT/authenticationhentication[K[Kstatus[2Pinfocommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush git statuscommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch --set-upstream-to authenticationorigin/authenticationstatus[Kcommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Ppushcommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccheckout -b authpush[Kcommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmoved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python y[2Pelled at me, added one-key authentication[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccheckout -b authentication[3Pauthentication/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pgit push origin HEAD:authentication[Kcommit -m "Fixed valid authentication"add -A[Kstatuscheckout origin/authentication/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push[Kcommit -e[3Padd -A/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kpip install -u pyblake2/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[K/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app_test.py[5P.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kpython3[2Pclearpython[1Pclearpython3[2Pexit [1Phelpcloseexit() yexit()0)[K) exit())[K[1Ppython3 -V[K -V?[K[1Pclear[2Pspython[1Pclearpytohncurl 'https://api.travis.org/' -H 'github_token: 1234567890'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/testing/app_test.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K[2Psvenv/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/testing/app_test.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pusr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pdpkg-reconfigure keyboard-configuration[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pull[Kpip3 install virtualenv --usersudo apt-get install python3-venv[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Ppython3 -m venv envclear[Kpip install --upgrade pip --user[K3 install flask --user[Kclear[Kgit clone https://github.com/auto-testing-feedback/CSEMT.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip3[K/pip32[K[1Ppip2opencd bin/usrpip3 upgrade --userclear[Kpython3 -install pip[1P[C[C[C[C[C[C[C[C[C[C[C[11Pip helpinstall[6Pclearpip install flask --user[1@3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kvirtualenvclear[Kd[Kvim hicksk5.pub ls[Klssh-keygenls[Kcd .ssh[3@mkdir[C[C[C[C[C[5Pls -aa[Kclear[3Plslcd .ssh[Kgit clone git@github.com:auto-testing-feedback/CSEMT.gitclear[Kgit clone https://github.com/auto-testing-feedback/CSEMT.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd Python/[KDocuments/[3PPython/git clone https://github.com/auto-testing-feedback/CSEMT.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd Python/[KDocuments/[3PPython/git clone https://github.com/auto-testing-feedback/CSEMT.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kgit clone git@github.com:auto-testing-feedback/CSEMT.gitcd[K .sshll[Ksclear[3Plas -amkdir .ssh[3Pcd[C[C[C[C[Cls[Kssh-keygenll[Ksvim hicksk5.pub cd[Klearpip3 install virtualenv[5Pflask --user[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kpip install[3Phelpython3 install pip[1@-[C[C[C[C[C[C[C[C[C[C[Cclear[Kpip3 upgrade --user[12Pcd /usr[1Pbin[2Popenpip2[K/pip23[1Ppip3git clone https://github.com/auto-testing-feedback/CSEMT.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kpip3 install flask --user install --upgrade pip --userclear[Kpython3 -m venv envapt-get install python3-venv[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ppip3 install virtualenv --usergit pull[Ksudo dpkg-reconfigure keyboard-configuration[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.pypython3 /home/hicksk5/Documents/Python/CSEMT/testing/app_test.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@usr/bin/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvenv[K[1Pclsear/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/testing/app_test.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccurl 'https://api.travis.org/' -H 'github_token: 1234567890'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpytohn[K[1Pclearpython[3Pclsearpython -?V[2P3 -Vexit() exit())0)[K) exit()y[K[3Pclose[1Phelpexit python3[2Pclearpython[1Pclearpython3[3Pexit/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py_test.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[42Ppip install -u pyblake2/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kpip install -u pyblake2/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add -A[Kcommit -e[5Ppush/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pgit checkout origin/authenticationstatus[Kadd -Acommit -m "Fixed valid authentication"push[K origin HEAD:authentication/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pgit checkout authentication-b authenticationadd -A[Kcommit -m moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python yyelled at me, added one-key authentication[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccheckout -b auth[10Padd -Acommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -Acommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch --set-upstream-to origin/authentication[7Pauthenticationadd -A[Kcommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush git status[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Padd -Acommit -m "moved authentication to its own class, added rendering of dash.html and index.html, moved app_test to parent because python  yelled at me, added one-key authentication"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinfo[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[2Ppush authenticationo-testing-feedback/CSEMT/authentication[22PCSEMT/authenticationorigin authenticationcheckout origin/authentication/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add -A[Kcommit -m "fixed error where only one character of the required scope is displayed when an API key with insufficient scopes is submitteed"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush origin HEAD:authentication[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/usr/bin/python3 /home/hicksk5/Documents/Python/CSEMT/app.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/auto-testing-feedback/Github-Travis-Data-Collection.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/usr/bin/python3 /home/hicksk5/Documents/Python/Github-Travis-Data-Collection/datacollection.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip install -u github3[Kython -m pip install pip==9.0.3 --upgrade --force-reinstallip install github3[Kython -m pip install pip --upgrade --force-reinstallgit pull[Kcheckout masterorigin/master --HARD[12Preset --hard HEAD[2Pcheckout master[3Pfetch originreset --hard origin/master[14Pfetch originreset --hard origin/masterclear[Kpip install github3.py[9Pexit() exit()[Kkilltasklists[K[1Pexitgit clone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[27Ponfig --global user.name KaiHickslone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgit clone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[27Ponfig --global user.name KaiHicksemail hicksk5@wwu.edu[28Pcd lab-1-KaiHicks/[1Ptouch writeup.txtgit add writeup.txt [3Ptouch writeup.txtcd lab-1-KaiHicks/git config --global user.email hicksk5@wwu.edu[8Pname KaiHickslone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ktaskslist[4Pkillexit() exit()pip install github3.pyclear[Kgit reset --hard origin/master[14Pfetch origincheckout masterreset --hard HEADcheckout origin/master --HARD[K --HARD[12Preset --hard HEAD[2Pcheckout master[3Pfetch originreset --hard origin/masterclear[Kpip install github3.py[9Pexit() exit()[Kkilltasklists[K[1Pexitgit clone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[27Ponfig --global user.name KaiHicksemail hicksk5@wwu.edu[28Pcd lab-1-KaiHicks/git config --global user.email hicksk5@wwu.edu[8Pname KaiHickslone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ktaskslist[4Pkillexit() exit()pip install github3.pyclear[Kgit reset --hard origin/master[14Pfetch origincheckout masterreset --hard HEADcheckout origin/master --HARD[K[7Pmasterpull[Kpython -m pip install pip --upgrade --force-reinstall[34Pip install github3ython -m pip install pip==9.0.3 --upgrade --force-reinstall[38Pip install -u github3ython -m pip install pip==9.0.3 --upgrade --force-reinstallip install github3[Kython -m pip install pip --upgrade --force-reinstallgit pull[Kcheckout masterorigin/master --HARD[12Preset --hard HEAD[2Pcheckout master[3Pfetch originreset --hard origin/masterclear[Kpip install github3.py[9Pexit() exit()[Kkilltasklists[K[1Pexitgit clone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[27Ponfig --global user.name KaiHicksemail hicksk5@wwu.edu[28Pcd lab-1-KaiHicks/[1Ptouch writeup.txtgit add writeup.txt commit -m "Created writeup file"[16Padd writeup.txt [3Ptouch writeup.txtcd lab-1-KaiHicks/git config --global user.email hicksk5@wwu.edu[8Pname KaiHickslone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ktaskslist[4Pkillexit() exit()pip install github3.pyclear[Kgit reset --hard origin/master[14Pfetch origincheckout masterreset --hard HEADcheckout origin/master --HARD[K[7Pmasterpull[Kpython -m pip install pip --upgrade --force-reinstall[34Pip install github3ython -m pip install pip==9.0.3 --upgrade --force-reinstallip install github3[Kython -m pip install pip --upgrade --force-reinstallgit pull[Kcheckout masterorigin/master --HARD[12Preset --hard HEAD[2Pcheckout master[3Pfetch originreset --hard origin/masterclear[Kpip install github3.py[9Pexit() exit()[Kkilltasklists[K[1Pexitgit clone https://github.com/CSCI241Spring2019/lab-1-KaiHicks.git[27Ponfig --global user.name KaiHicksemail hicksk5@wwu.edu[28Pcd lab-1-KaiHicks/[1Ptouch writeup.txtgit add writeup.txt commit -m "Created writeup file"push[Kadd writeup.txt commit -m "Added part 1 to writeup"push[Kadd writeup.txt [2Ptouch username.txtgit add username.txt push -m "Added the second part of the writeup and added username.txt
+"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@commit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
